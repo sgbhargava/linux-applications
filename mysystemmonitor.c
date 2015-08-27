@@ -129,7 +129,8 @@ static int curse(float percentage, int y)
 	float scalefactor = 0.0;
 	int i = 0;
 
-/*getmaxyx() gets the max values of x and y co-ordinates in the window. We can use it to re-scale the output based in the window size*/
+/*getmaxyx() gets the max values of x and y co-ordinates in the window. 
+We can use it to re-scale the output based on the window size*/
 	getmaxyx(stdscr, max_y, max_x);
 	scalefactor = ((float)max_x - 10.0)/100.0;
 
