@@ -37,7 +37,7 @@ int main()
 
 	start_color();
 
-/*declaring ccolor pairs*/
+/*declaring color pairs*/
 	init_pair(1, COLOR_GREEN, COLOR_BLACK);
 	init_pair(2, COLOR_RED, COLOR_BLACK);
 
